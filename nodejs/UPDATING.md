@@ -21,6 +21,7 @@
     ```
     docker build -t gtfs-nodejs -f nodejs/Dockerfile .
     docker run --rm gtfs-nodejs cat /lib/gtfs-realtime.js > nodejs/gtfs-realtime.js
+    docker run --rm gtfs-nodejs cat /lib/gtfs-realtime.d.ts > nodejs/gtfs-realtime.d.ts
     ```
 
 1. Add the license header back to the generated source file.
